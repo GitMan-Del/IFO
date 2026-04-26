@@ -10,7 +10,7 @@ export default function Hero() {
     <div className="w-full h-screen flex flex-col items-center justify-center relative">
       <Navbar />
 
-      <div className="px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl top-65 left-80 z-30 flex items-center justify-start gap-4">
+      <div className="animate-float1 px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl top-65 left-80 z-30 flex items-center justify-start gap-4">
         <svg
           width="75"
           height="80"
@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl bottom-65 left-70 z-30 flex items-center justify-start gap-4">
+      <div className="animate-float2 px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl bottom-65 left-70 z-30 flex items-center justify-start gap-4">
         <svg
           width="75"
           height="80"
@@ -123,7 +123,7 @@ export default function Hero() {
           <path
             d="M0 13.5866C0 8.06371 4.47715 3.58655 10 3.58655H51C56.5229 3.58655 61 8.0637 61 13.5865V50.9969C61 56.5197 56.5228 60.9969 51 60.9969H10C4.47715 60.9969 0 56.5197 0 50.9969V13.5866Z"
             fill="url(#paint2_radial_1127_818)"
-            fill-opacity="0.4"
+            fillOpacity="0.4"
           />
           <path
             d="M0 10C0 4.47716 4.47715 0 10 0H51C56.5229 0 61 4.47715 61 10V47.4103C61 52.9332 56.5228 57.4103 51 57.4103H10C4.47715 57.4103 0 52.9332 0 47.4103V10Z"
@@ -144,10 +144,10 @@ export default function Hero() {
           <path
             d="M0 10C0 4.47716 4.47715 0 10 0H51C56.5229 0 61 4.47715 61 10V47.4103C61 52.9332 56.5228 57.4103 51 57.4103H10C4.47715 57.4103 0 52.9332 0 47.4103V10Z"
             fill="url(#paint6_radial_1127_818)"
-            fill-opacity="0.3"
+            fillOpacity="0.3"
           />
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M17 23.5C17 18.8056 21.0294 15 26 15C30.9706 15 35 18.8056 35 23.5C35 28.1945 30.9706 32 26 32C21.0294 32 17 28.1945 17 23.5Z"
             fill="black"
@@ -157,7 +157,7 @@ export default function Hero() {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M17.0981 35.3986C19.4827 34.3288 22.6113 34 26.4995 34C30.3911 34 33.522 34.3294 35.9074 35.4016C38.5058 36.5694 40.0851 38.5586 40.9128 41.3672C41.3008 42.6836 40.3442 44 39.0259 44H13.9768C12.657 44 11.6984 42.6816 12.0875 41.3628C12.9164 38.5538 14.498 36.5652 17.0981 35.3986Z"
             fill="black"
@@ -262,7 +262,8 @@ export default function Hero() {
           </p>
         </div>
       </div>
-      <div className="px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl top-85 right-70 z-30 flex items-center justify-start gap-4">
+
+      <div className="animate-float2 px-4 absolute w-68 h-21 bg-[#D9D9D9]/20 backdrop-blur-2xl rounded-2xl top-85 right-70 z-30 flex items-center justify-start gap-4">
         <svg
           width="75"
           height="80"
@@ -285,7 +286,7 @@ export default function Hero() {
           <path
             d="M0 13.5866C0 8.06371 4.47715 3.58655 10 3.58655H51C56.5229 3.58655 61 8.0637 61 13.5865V50.9969C61 56.5197 56.5228 60.9969 51 60.9969H10C4.47715 60.9969 0 56.5197 0 50.9969V13.5866Z"
             fill="url(#paint2_radial_1127_818)"
-            fill-opacity="0.4"
+            fillOpacity="0.4"
           />
           <path
             d="M0 10C0 4.47716 4.47715 0 10 0H51C56.5229 0 61 4.47715 61 10V47.4103C61 52.9332 56.5228 57.4103 51 57.4103H10C4.47715 57.4103 0 52.9332 0 47.4103V10Z"
@@ -306,10 +307,10 @@ export default function Hero() {
           <path
             d="M0 10C0 4.47716 4.47715 0 10 0H51C56.5229 0 61 4.47715 61 10V47.4103C61 52.9332 56.5228 57.4103 51 57.4103H10C4.47715 57.4103 0 52.9332 0 47.4103V10Z"
             fill="url(#paint6_radial_1127_818)"
-            fill-opacity="0.3"
+            fillOpacity="0.3"
           />
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M17 23.5C17 18.8056 21.0294 15 26 15C30.9706 15 35 18.8056 35 23.5C35 28.1945 30.9706 32 26 32C21.0294 32 17 28.1945 17 23.5Z"
             fill="black"
@@ -319,7 +320,7 @@ export default function Hero() {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M17.0981 35.3986C19.4827 34.3288 22.6113 34 26.4995 34C30.3911 34 33.522 34.3294 35.9074 35.4016C38.5058 36.5694 40.0851 38.5586 40.9128 41.3672C41.3008 42.6836 40.3442 44 39.0259 44H13.9768C12.657 44 11.6984 42.6816 12.0875 41.3628C12.9164 38.5538 14.498 36.5652 17.0981 35.3986Z"
             fill="black"
