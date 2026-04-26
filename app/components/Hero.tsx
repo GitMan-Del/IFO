@@ -148,7 +148,7 @@ export default function Hero() {
           />
           <path
             fillRule="evenodd"
-            clip-rule="evenodd"
+            clipRule="evenodd"
             d="M17 23.5C17 18.8056 21.0294 15 26 15C30.9706 15 35 18.8056 35 23.5C35 28.1945 30.9706 32 26 32C21.0294 32 17 28.1945 17 23.5Z"
             fill="black"
           />
@@ -158,7 +158,7 @@ export default function Hero() {
           />
           <path
             fillRule="evenodd"
-            clip-rule="evenodd"
+            clipRule="evenodd"
             d="M17.0981 35.3986C19.4827 34.3288 22.6113 34 26.4995 34C30.3911 34 33.522 34.3294 35.9074 35.4016C38.5058 36.5694 40.0851 38.5586 40.9128 41.3672C41.3008 42.6836 40.3442 44 39.0259 44H13.9768C12.657 44 11.6984 42.6816 12.0875 41.3628C12.9164 38.5538 14.498 36.5652 17.0981 35.3986Z"
             fill="black"
           />
@@ -311,7 +311,7 @@ export default function Hero() {
           />
           <path
             fillRule="evenodd"
-            clip-rule="evenodd"
+            clipRule="evenodd"
             d="M17 23.5C17 18.8056 21.0294 15 26 15C30.9706 15 35 18.8056 35 23.5C35 28.1945 30.9706 32 26 32C21.0294 32 17 28.1945 17 23.5Z"
             fill="black"
           />
@@ -321,7 +321,7 @@ export default function Hero() {
           />
           <path
             fillRule="evenodd"
-            clip-rule="evenodd"
+            clipRule="evenodd"
             d="M17.0981 35.3986C19.4827 34.3288 22.6113 34 26.4995 34C30.3911 34 33.522 34.3294 35.9074 35.4016C38.5058 36.5694 40.0851 38.5586 40.9128 41.3672C41.3008 42.6836 40.3442 44 39.0259 44H13.9768C12.657 44 11.6984 42.6816 12.0875 41.3628C12.9164 38.5538 14.498 36.5652 17.0981 35.3986Z"
             fill="black"
           />
