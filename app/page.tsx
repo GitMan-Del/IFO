@@ -1,0 +1,14 @@
+import Image from "next/image";
+import Hero from "./components/Hero";
+import Btn from "./components/Btn";
+
+export default function Home() {
+  return (
+    <div className="flex flex-col w-full min-h-screen items-center justify-center font-sans">
+      <Hero />
+      <div className=" h-screen bg-black">
+       
+      </div>
+    </div>
+  );
+}
