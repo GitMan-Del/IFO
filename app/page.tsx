@@ -5,7 +5,7 @@ import { useSmoothScroll } from "@/lib/SmoothScroll";
 import Mb_section from "./components/Mb_section";
 import IFO_section from "./components/IFO_section";
 
-export default function Home() {
+export default function Home() { 
 
   useSmoothScroll();
   return (
