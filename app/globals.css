@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #171717;
+  --background: #0C0C0C;
   --foreground: #ffffff;
   --background-white: #D9D9D9;
 }
@@ -16,9 +16,9 @@ body {
   width: 1px;
 }
 
-h1{
+h1 , h2 {
   font-family: var(--font-space-grotesk), sans-serif;
-}
+} 
 
 .animate-float1 {
   animation: float1 5s ease-in-out infinite;
@@ -51,4 +51,9 @@ h1{
   100% {
     transform: translateY(-10px);
   }
+}
+
+
+.pform {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

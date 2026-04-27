@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Hero from "./components/Hero";
-import Btn from "./components/Btn";
 import { useSmoothScroll } from "@/lib/SmoothScroll";
+import Mb_section from "./components/Mb_section";
+import IFO_section from "./components/IFO_section";
 
 export default function Home() {
 
@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full min-h-screen items-center justify-center font-sans">
       <Hero />
-      <div className=" h-screen bg-black">
-      </div>
+      <Mb_section />
+      <IFO_section />
     </div>
   );
 }
