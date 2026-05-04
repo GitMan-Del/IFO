@@ -1,11 +1,9 @@
-
 import Image from "next/image";
 import Navbar from "./Navbar";
 import Badge from "./Badge";
 import Btn from "./Btn";
 
 export default function Hero() {
-
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center relative">
       <Navbar />
@@ -186,16 +184,8 @@ export default function Hero() {
               gradientTransform="matrix(8.66477 84.3214 -55.5923 38.2666 26.6875 -14.3538)"
               gradientUnits="userSpaceOnUse"
             >
-              <stop
-                offset="0.212469"
-                stopColor="#FFF700"
-                stopOpacity="0.92"
-              />
-              <stop
-                offset="0.886241"
-                stopColor="#FFA96A"
-                stopOpacity="0.57"
-              />
+              <stop offset="0.212469" stopColor="#FFF700" stopOpacity="0.92" />
+              <stop offset="0.886241" stopColor="#FFA96A" stopOpacity="0.57" />
             </radialGradient>
             <radialGradient
               id="paint2_radial_1127_818"
@@ -349,16 +339,8 @@ export default function Hero() {
               gradientTransform="matrix(8.66477 84.3214 -55.5923 38.2666 26.6875 -14.3538)"
               gradientUnits="userSpaceOnUse"
             >
-              <stop
-                offset="0.212469"
-                stopColor="#FFF700"
-                stopOpacity="0.92"
-              />
-              <stop
-                offset="0.886241"
-                stopColor="#FFA96A"
-                stopOpacity="0.57"
-              />
+              <stop offset="0.212469" stopColor="#FFF700" stopOpacity="0.92" />
+              <stop offset="0.886241" stopColor="#FFA96A" stopOpacity="0.57" />
             </radialGradient>
             <radialGradient
               id="paint2_radial_1127_818"
@@ -420,9 +402,7 @@ export default function Hero() {
 
         <div className="flex flex-col items-start justify-center w-full">
           <p className="text-[#A39E91]">Automation</p>
-          <p className="text-[20px] font-medium">
-               Active · Running
-          </p>
+          <p className="text-[20px] font-medium">Active · Running</p>
         </div>
       </div>
 
@@ -432,6 +412,7 @@ export default function Hero() {
         width={400}
         height={400}
         className="absolute z-20 left-0"
+        style={{height: "auto", width: "auto" }}
       />
       <Image
         src="/fly2.png"
@@ -439,12 +420,13 @@ export default function Hero() {
         width={300}
         height={300}
         className="absolute z-20 right-10 bottom-10"
+       style={{height: "auto", width: "auto" }}
       />
       <Image
         src="/Background.png"
         alt="Hero"
         fill
-        objectFit="cover"
+        style={{ objectFit: "cover" }}
         quality={75}
         priority
         sizes="100vw"

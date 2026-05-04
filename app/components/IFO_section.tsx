@@ -28,7 +28,7 @@ export default function IFO_section() {
             src="/High-Perfom2.png"
             alt="High-performance"
             width={100}
-            objectFit="Cover"
+             style={{ objectFit: "cover" }}
             objectPosition="center"
             height={94}
           />
