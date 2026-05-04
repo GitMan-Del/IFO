@@ -1,14 +1,15 @@
-"use client";
-
 import Hero from "./components/Hero";
-import { useSmoothScroll } from "@/lib/SmoothScroll";
 import Mb_section from "./components/Mb_section";
 import IFO_section from "./components/IFO_section";
 import ProjectSection from "./components/Projects";
+import { createClient } from '@/lib/utils/supabase/server'
+import { cookies } from 'next/headers'
 
-export default function Home() { 
+export default async function Home() { 
 
-  useSmoothScroll();
+  const cookieStore = await cookies()
+  const supabase = createClient(cookieStore)
+
   return (
     <div className="flex flex-col w-full min-h-screen items-center justify-center font-sans">
       <Hero />
